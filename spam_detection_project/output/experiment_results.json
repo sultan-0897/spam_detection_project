@@ -1,0 +1,34 @@
+{
+    "knn": {
+        "best_params": {
+            "n_neighbors": 5,
+            "weights": "distance"
+        },
+        "accuracy": 0.9109663409337676,
+        "precision": 0.8913649025069638,
+        "recall": 0.8815426997245179,
+        "f1_score": 0.8864265927977839,
+        "roc_auc": 0.9538913079968798
+    },
+    "log_reg": {
+        "best_params": {
+            "C": 1
+        },
+        "accuracy": 0.9294245385450597,
+        "precision": 0.9209039548022598,
+        "recall": 0.8980716253443526,
+        "f1_score": 0.9093444909344491,
+        "roc_auc": 0.9700771152384056
+    },
+    "rf": {
+        "best_params": {
+            "max_depth": null,
+            "n_estimators": 100
+        },
+        "accuracy": 0.9446254071661238,
+        "precision": 0.9482758620689655,
+        "recall": 0.9090909090909091,
+        "f1_score": 0.9282700421940928,
+        "roc_auc": 0.9834389841721222
+    }
+}
